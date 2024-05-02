@@ -1,6 +1,6 @@
 # You can change this base image to anything else
 # But make sure to use the correct version of Java
-FROM adoptopenjdk/openjdk11:alpine-jre
+FROM amazoncorretto:17.0.7-alpine
 
 # Simply the artifact path
 ARG artifact=target/accounts-0.0.1-SNAPSHOT.jar
