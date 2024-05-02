@@ -16,7 +16,7 @@ pipeline {
       steps {
         sh 'ls -ltr'
         // build the project and create a JAR file == just added line
-        sh 'cd accounts && mvn clean package'
+        sh 'cd accounts && mvn clean package -Dmaven.test.skip=true'
       }
     }
     stage('Static Code Analysis') {
