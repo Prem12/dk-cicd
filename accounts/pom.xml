@@ -101,7 +101,7 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
+<!--	<build>
 		<plugins>
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
@@ -115,5 +115,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+-->
 </project>
